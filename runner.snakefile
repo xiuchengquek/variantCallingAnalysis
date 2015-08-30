@@ -10,9 +10,10 @@ rule target:
     input : expand('./data/stats/{samples}.gcoverage', samples=samples)
 
 
-rule run_genome_coverage
+rule run_genome_coverage:
     input : ./data/bam/{samples}
     output : ./data/stats/{samples}.gcoverage
+    params : cores="2"
     shell : '$bedtools  genomecov -ibam $input -bga -split -max 250'
 
 
