@@ -11,9 +11,9 @@ rule target:
 
 
 rule run_genome_coverage:
-    input : ./data/bam/{samples}
-    output : ./data/stats/{samples}.gcoverage
+    input : './data/bam/{samples}'
+    output : './data/stats/{samples}.gcoverage'
     params : cores="2"
-    shell : '$bedtools  genomecov -ibam $input -bga -split -max 250'
+    shell : '{bedtools}  genomecov -ibam {input} -bga -split -max 250 > {output}'
 
 
