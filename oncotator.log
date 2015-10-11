@@ -1,0 +1,73 @@
+2015-10-11 18:15:43,955 INFO [oncotator.Oncotator:239] Oncotator v1.8.0.0
+2015-10-11 18:15:43,956 INFO [oncotator.Oncotator:240] Args: Namespace(allow_overwriting=False, cache_url=None, canonical_tx_file=None, collapse_filter_cols=False, collapse_number_annotations=False, dbDir='/share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/', default_cli=[], default_config=None, genome_build='hg19', infer_genotypes='false', infer_onps=False, input_file='data/vcf/778-R-CDK4i-24-03-2014.marked.split.realigned.recalibrated.hc.vcf', input_format='VCF', log_name='oncotator.log', noMulticore=False, output_file='data/oncotator/778-R-CDK4i-24-03-2014.marked.split.realigned.recalibrated.hc.vcf.out', output_format='TCGAMAF', override_cli=[], override_config=None, prepend=False, read_only_cache=False, reannotate_tcga_maf_cols=False, skip_no_alt=False, tx_mode='CANONICAL', verbose=6)
+2015-10-11 18:15:43,956 INFO [oncotator.Oncotator:241] Log file: /home/xiuque/Projects/genomicInstability/variantCalling/oncotator.log
+2015-10-11 18:15:43,957 WARNING [oncotator.Oncotator:247] ngslib module not installed.  Will be unable to annotate with BigWig datasources.
+2015-10-11 18:15:43,964 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cosmic_fusion/hg19/cosmic_fusion.config
+2015-10-11 18:15:43,964 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/gencode_xrefseq/hg19/gencode_xrefseq.config
+2015-10-11 18:15:43,965 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/clinvar/hg19/clinvar.config
+2015-10-11 18:15:43,965 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/esp6500SI_v2/hg19/esp6500SI_v2.config
+2015-10-11 18:15:43,966 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/ccle_by_gene/hg19/ccle_by_gene.config
+2015-10-11 18:15:43,966 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/oreganno/hg19/oreganno.config
+2015-10-11 18:15:43,967 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/achilles/hg19/achilles.config
+2015-10-11 18:15:43,967 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cancer_gene_census/hg19/cancer_gene_census.config
+2015-10-11 18:15:43,968 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/simple_uniprot/hg19/simple_uniprot.config
+2015-10-11 18:15:43,968 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/dna_repair_genes/hg19/dna_repair_genes.config
+2015-10-11 18:15:43,969 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/dbsnp/hg19/dbsnp.config
+2015-10-11 18:15:43,969 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/ref_hg/hg19/ref_hg.config
+2015-10-11 18:15:43,969 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/uniprot_aa_xform/hg19/uniprot_aa_xform.config
+2015-10-11 18:15:43,970 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/gencode_out2/hg19/gencode_out2.config
+2015-10-11 18:15:43,970 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/hgnc/hg19/hgnc.config
+2015-10-11 18:15:43,971 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/ccle_by_gp/hg19/ccle_by_gp.config
+2015-10-11 18:15:43,971 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cosmic_tissue/hg19/cosmic_tissue.config
+2015-10-11 18:15:43,972 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/familial/hg19/familial.config
+2015-10-11 18:15:43,972 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/tumorscape/hg19/tumorscape.config
+2015-10-11 18:15:43,973 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cosmic/hg19/cosmic.config
+2015-10-11 18:15:43,973 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/1000genome_db/hg19/1000genome_db.config
+2015-10-11 18:15:43,974 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/uniprot_aa_annotation/hg19/uniprot_aa_annotation.config
+2015-10-11 18:15:43,974 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/dbNSFP_ds/hg19/dbNSFP_ds.config
+2015-10-11 18:15:43,975 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/esp6500SI_v2_coverage/hg19/esp6500SI_v2_coverage.config
+2015-10-11 18:15:43,975 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/so_terms/hg19/so_terms.config
+2015-10-11 18:15:43,975 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/tcgascape/hg19/tcgascape.config
+2015-10-11 18:15:43,976 INFO [oncotator.DatasourceFactory:286] Queuing datasource creation for /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/mutsig/hg19/mutsig.config
+2015-10-11 18:15:43,976 INFO [oncotator.DatasourceFactory:304] Creating pool
+2015-10-11 18:15:43,988 INFO [oncotator.DatasourceFactory:307] Pool created
+2015-10-11 18:15:44,038 INFO [oncotator.datasources.EnsemblTranscriptDatasource:95] GENCODE v19 is being set up in faster, NOT thread-safe mode (for annotation).  
+2015-10-11 18:15:44,119 INFO [oncotator.datasources.EnsemblTranscriptDatasource:106] GENCODE v19 is being set up with default tx-mode: CANONICAL.  
+2015-10-11 18:15:44,120 WARNING [oncotator.datasources.EnsemblTranscriptDatasource:123] Attempting to set transcript mode of CANONICAL for ensembl.  This operation is only supported for GENCODE.  Otherwise, will be the same as EFFECT.
+2015-10-11 18:15:44,120 INFO [oncotator.datasources.EnsemblTranscriptDatasource:109] GENCODE v19 is being set up with basic filtering.  
+2015-10-11 18:15:44,155 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/so_terms/hg19//SO_Ensembl_consequence_terms.bin...
+2015-10-11 18:15:44,162 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/clinvar/hg19//clinvar_hgmd.12-03-20.bin...
+2015-10-11 18:15:44,163 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cancer_gene_census/hg19//CancerGeneCensus_Table_1_full_2012-03-15.bin...
+2015-10-11 18:15:44,163 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cosmic_fusion/hg19//CosmicMutantExportIncFus_v62_291112_fusion.bin...
+2015-10-11 18:15:44,163 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/oreganno/hg19//oreganno_results_by_pos.hg19.import.bin...
+2015-10-11 18:15:44,167 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/gencode_xrefseq/hg19//gencode_xrefseq_v19.bin...
+2015-10-11 18:15:44,176 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/simple_uniprot/hg19//simple_uniprot_Dec012014.bin...
+2015-10-11 18:15:44,673 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/dna_repair_genes/hg19//Wood_DNARepairGenes.no_dupes.bin...
+2015-10-11 18:15:44,676 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/hgnc/hg19//hgnc_download_Sept172014.bin...
+2015-10-11 18:15:44,880 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/achilles/hg19//achilles_lineage_results.import.bin...
+2015-10-11 18:15:44,928 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/ccle_by_gp/hg19//ccle_results_by_pos.hg19.import.bin...
+2015-10-11 18:15:44,936 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/cosmic_tissue/hg19//CosmicMutantExportIncFus_v62_291112.geneHistology.bin...
+2015-10-11 18:15:45,372 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/familial/hg19//Familial Cancer Genes.no_dupes.bin...
+2015-10-11 18:15:45,379 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/tumorscape/hg19//tumorscape_20100104_generated.bin...
+2015-10-11 18:15:45,743 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/uniprot_aa_annotation/hg19//uniprot_aa_annotations.bin...
+2015-10-11 18:15:45,897 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/mutsig/hg19//mutsig_results.import.20110905.bin...
+2015-10-11 18:15:46,987 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/ccle_by_gene/hg19//ccle_results_by_gene.import.bin...
+2015-10-11 18:15:49,437 INFO [root:73] Loading /share/Temp/xiuque/oncotator/oncotator_v1_ds_Jan262014/tcgascape/hg19//tcgascape_110405_generated.bin...
+2015-10-11 18:15:52,907 INFO [oncotator.DatasourceFactory:321] Mapping complete: 17 datasources created in multiprocess
+2015-10-11 18:15:53,142 INFO [oncotator.utils.RunSpecificationFactory:124] Setting GENCODE v19 to tx-mode of CANONICAL...
+2015-10-11 18:15:53,142 WARNING [oncotator.datasources.EnsemblTranscriptDatasource:123] Attempting to set transcript mode of CANONICAL for ensembl.  This operation is only supported for GENCODE.  Otherwise, will be the same as EFFECT.
+2015-10-11 18:15:53,142 INFO [oncotator.utils.RunSpecificationFactory:135] No custom canonical transcripts specified.
+2015-10-11 18:15:53,185 INFO [oncotator.output.TcgaMafOutputRenderer:93] Building alternative keys dictionary...
+2015-10-11 18:15:53,187 INFO [oncotator.cache.DummyCache:57] No cache specified.  All cache attempts will be listed as cache misses.
+2015-10-11 18:15:53,187 INFO [oncotator.Annotator:426] Annotating with 27 datasources: Oncotator v1.8.0.0 | Flat File Reference hg19 | GENCODE v19 CANONICAL | UniProt_AAxform 2014_12 | ESP 6500SI-V2 | dbSNP build 142 | COSMIC v62_291112 | 1000gp3 20130502 | dbNSFP v2.4 | ESP 6500SI-V2 | ClinVar 12.03.20 | ORegAnno UCSC Track | CCLE_By_GP 09292010 | UniProt_AA 2014_12 | Ensembl ICGC MUCOPA | COSMIC_FusionGenes v62_291112 | gencode_xref_refseq metadata_v19 | CCLE_By_Gene 09292010 | ACHILLES_Lineage_Results 110303 | CGC full_2012-03-15 | UniProt 2014_12 | HumanDNARepairGenes 20110905 | HGNC Sept172014 | COSMIC_Tissue 291112 | Familial_Cancer_Genes 20110905 | TUMORScape 20100104 | TCGAScape 110405 | MutSig Published Results 20110905 
+2015-10-11 18:15:53,234 INFO [oncotator.output.TcgaMafOutputRenderer:256] TCGA MAF output file: data/oncotator/778-R-CDK4i-24-03-2014.marked.split.realigned.recalibrated.hc.vcf.out
+2015-10-11 18:15:53,235 INFO [oncotator.output.TcgaMafOutputRenderer:257] Render starting...
+2015-10-11 18:15:53,832 WARNING [oncotator.output.TcgaMafOutputRenderer:219] Entrez Gene ID was zero, but Hugo Symbol was not Unknown.  Is the HGNC and/or Transcript datasource complete?
+2015-10-11 18:16:17,254 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 1000 mutations.
+2015-10-11 18:16:38,924 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 2000 mutations.
+2015-10-11 18:17:02,492 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 3000 mutations.
+2015-10-11 18:17:22,674 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 4000 mutations.
+2015-10-11 18:17:45,568 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 5000 mutations.
+2015-10-11 18:18:04,872 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 6000 mutations.
+2015-10-11 18:18:27,502 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 7000 mutations.
+2015-10-11 18:18:48,526 INFO [oncotator.output.TcgaMafOutputRenderer:330] Rendered 8000 mutations.
